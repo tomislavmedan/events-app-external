@@ -28,8 +28,6 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run tests
-      run: npm test
    
   login_then_push_dockerhub:
     name: docker image build and push
